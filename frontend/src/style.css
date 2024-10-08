@@ -1,0 +1,37 @@
+/* Add the styles for the dashboard grid */
+.dashboard-list {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 20px; /* Space between the grid items */
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+.dashboard-item {
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  /* background-color: #444; */
+}
+
+.dashboard-thumbnail {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+h3 {
+  margin: 10px 0 5px 0;
+  font-size: 1em;
+}
+
+p {
+  font-size: 0.9em;
+  color: #666;
+}
